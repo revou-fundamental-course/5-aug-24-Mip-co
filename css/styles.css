@@ -10,10 +10,10 @@
     box-sizing: border-box;
 }
 
-
 main{
     background-color: white;
     border-radius: 10px;
+    padding: 10px;
 }
 /* Mengatur gaya dasar untuk body */
 body {
@@ -24,6 +24,11 @@ body {
     background-position: center;
     color: #333;
     line-height: 1.6;
+}
+footer {
+    text-align: center;
+    font-style:initial;
+    font-size: 15px;
 }
 
 /* Mengatur container utama yang berfungsi sebagai pembungkus utama */
