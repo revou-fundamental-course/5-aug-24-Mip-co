@@ -49,7 +49,7 @@ document.getElementById('bmiform').addEventListener('submit', function(e) {
     document.getElementById('downloadResult').style.display = 'block'; // Menampilkan tombol download hasil
 
     // Menyusun dan menampilkan rangkuman hasil BMI termasuk rentang rata-rata dan saran
-    const bmiSummary = document.getElementById('bmiSummary');
+    const bmiSummary = document.getElementById('bmisummary');
     bmiSummary.innerHTML = `
         <p>Hasil BMI di antara ${averageRange.start.toFixed(1)} hingga ${averageRange.end.toFixed(1)}.</p>
         <p>${advice}</p>
@@ -75,4 +75,8 @@ document.getElementById('downloadResult').addEventListener('click', function () 
     a.click(); // Memulai unduhan
     URL.revokeObjectURL(url); // Membersihkan URL setelah digunakan
 });
+function resetForm() {
+   document.getElementById('bmiresult').reset();
+}
+    
 

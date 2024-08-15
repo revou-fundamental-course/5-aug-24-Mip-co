@@ -10,10 +10,18 @@
     box-sizing: border-box;
 }
 
+
+main{
+    background-color: white;
+    border-radius: 10px;
+}
 /* Mengatur gaya dasar untuk body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background:url(https://png.pngtree.com/background/20220724/original/pngtree-background-estetik-polos-untuk-latar-foto-picture-image_1739284.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #333;
     line-height: 1.6;
 }
@@ -117,17 +125,6 @@ form {
     color: #ccc;
 }
 
-/* Gaya untuk ikon pensil di dalam input */
-.form-group .icon-pencil {
-    position: absolute;
-    top: 35px;
-    border: 1px solid #666;
-    border-radius: 4px; 
-    left: 10px;
-    width: 20px;
-    height: 20px;
-    pointer-events: none;
-}
 
 /* Gaya untuk radio button dalam form inline */
 .form-inline {
